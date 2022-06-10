@@ -58,3 +58,41 @@ button{
     cursor: pointer;
     padding-left: 41px;
 }
+@media screen and (max-width:1100px) {
+    .SectionOne{
+        display: block;
+        text-align: center;
+        position: static;
+        width: 94vw;
+    }
+    h1{
+        font-size: 5vh;
+        line-height: 8vh;
+        margin-top: 8vh;
+    }
+    p{
+        font-size: 2vh;
+        line-height: 3vh;
+        text-align: center;
+    }
+    .SectionTwo{
+        display: block;
+        position: absolute;
+        width: 97%;
+        height: 51.5%;
+        background: rgb(93,93,125,0.16);
+        margin-left: 0vw;
+        margin-top: 3%;
+    }
+    .imgOne{
+        position: static;
+        margin-top: 2vh;
+        width: 30vh;
+        right: 0;
+
+    }
+    .LinksHeader{
+        display: none;
+    }
+
+}

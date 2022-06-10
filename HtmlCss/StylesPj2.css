@@ -79,17 +79,18 @@ button{
         display: block;
         position: absolute;
         width: 97%;
-        height: 51.5%;
+        height: 48.5%;
         background: rgb(93,93,125,0.16);
         margin-left: 0vw;
         margin-top: 3%;
     }
     .imgOne{
-        position: static;
-        margin-top: 2vh;
-        width: 30vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         right: 0;
-
+        max-height:40vh;
+        top: 2vh;
     }
     .LinksHeader{
         display: none;
